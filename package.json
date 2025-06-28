@@ -1,0 +1,26 @@
+{
+  "name": "landing-page-with-tailwidn",
+  "version": "1.0.0",
+  "description": "This checklist will guide you through setting up Tailwind CSS and DaisyUI in your project.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i app.css -o public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdahsan1999wd/landing-page-with-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bdahsan1999wd/landing-page-with-tailwind/issues"
+  },
+  "homepage": "https://github.com/bdahsan1999wd/landing-page-with-tailwind#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "daisyui": "^5.0.43",
+    "tailwindcss": "^4.1.11"
+  }
+}
